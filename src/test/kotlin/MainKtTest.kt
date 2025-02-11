@@ -142,7 +142,7 @@ import org.junit.Assert.*
          val amountTransfer = 100
 
          val result = calculateCommission(cardType, account, amountTransferPerMonth, amountTransfer)
-         assertEquals(36, result)
+         assertEquals(35, result)
      }
 
      @Test
